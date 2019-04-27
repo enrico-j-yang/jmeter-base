@@ -3,7 +3,7 @@ FROM alpine:3.9
 
 MAINTAINER Enrico J Yang <enrico.j.yang@gmail.com>
 
-ARG JMETER_VERSION="3.3"
+ARG JMETER_VERSION="5.1.1"
 ENV JMETER_HOME /opt/apache-jmeter-${JMETER_VERSION}
 ENV	JMETER_BIN	${JMETER_HOME}/bin
 ENV	JMETER_DOWNLOAD_URL  https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-${JMETER_VERSION}.tgz
